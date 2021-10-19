@@ -15,5 +15,4 @@ app.use(log);
 app.post('/talk', talk);
 app.get('/repeat', repeat);
 
-
 module.exports = app;
